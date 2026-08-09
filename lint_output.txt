@@ -1,0 +1,188 @@
+﻿
+> vite_react_shadcn_ts@0.0.0 lint
+> eslint .
+
+
+B:\lumina\api\movies\index.ts
+  172:9  error  'updates' is never reassigned. Use 'const' instead  prefer-const
+
+B:\lumina\api\predict.ts
+   95:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  130:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  164:47  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  164:61  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\api\talent\index.ts
+  62:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\lib\db.ts
+  3:9   error    Unexpected any. Specify a different type                                   @typescript-eslint/no-explicit-any
+  4:20  error    Unexpected any. Specify a different type                                   @typescript-eslint/no-explicit-any
+  9:3   warning  Unused eslint-disable directive (no problems were reported from 'no-var')
+
+B:\lumina\middleware\upload.ts
+  31:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\scripts\dev-api-server.ts
+  42:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  42:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  51:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  51:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  60:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  60:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  69:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  69:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  78:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  78:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  87:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  87:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  96:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  96:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\scripts\seed-team.ts
+  30:50  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  30:76  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  31:52  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  31:78  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  32:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\scripts\test-parse.ts
+  25:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  35:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  44:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\scripts\test-seed.ts
+  20:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\src\components\AddTalentModal.tsx
+  20:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  56:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\src\components\ui\badge.tsx
+  29:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\components\ui\button.tsx
+  49:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\components\ui\command.tsx
+  24:11  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+B:\lumina\src\components\ui\form.tsx
+  129:10  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\components\ui\navigation-menu.tsx
+  111:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\components\ui\sidebar.tsx
+  636:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\components\ui\sonner.tsx
+  27:19  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\components\ui\textarea.tsx
+  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+B:\lumina\src\components\ui\toggle.tsx
+  37:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\contexts\AuthContext.tsx
+  19:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\contexts\ProductionsContext.tsx
+   5:18  error    An interface declaring no members is equivalent to its supertype                                                                @typescript-eslint/no-empty-object-type
+  12:31  error    Unexpected any. Specify a different type                                                                                        @typescript-eslint/no-explicit-any
+  13:43  error    Unexpected any. Specify a different type                                                                                        @typescript-eslint/no-explicit-any
+  21:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  48:44  error    Unexpected any. Specify a different type                                                                                        @typescript-eslint/no-explicit-any
+  53:19  error    Unexpected any. Specify a different type                                                                                        @typescript-eslint/no-explicit-any
+  58:56  error    Unexpected any. Specify a different type                                                                                        @typescript-eslint/no-explicit-any
+  63:19  error    Unexpected any. Specify a different type                                                                                        @typescript-eslint/no-explicit-any
+  73:19  error    Unexpected any. Specify a different type                                                                                        @typescript-eslint/no-explicit-any
+
+B:\lumina\src\contexts\SearchContext.tsx
+  23:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+B:\lumina\src\pages\AICommandCenter- style refrence.tsx
+   87:6  warning  React Hook useEffect has missing dependencies: 'x' and 'y'. Either include them or remove the dependency array    react-hooks/exhaustive-deps
+  189:9  error    'start' is never reassigned. Use 'const' instead                                                                  prefer-const
+  239:6  warning  React Hook useEffect has a missing dependency: 'phases.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+B:\lumina\src\pages\AICommandCenter.tsx
+  138:5   warning  React Hook useEffect has missing dependencies: 'x' and 'y'. Either include them or remove the dependency array    react-hooks/exhaustive-deps
+  147:73  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  189:64  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  204:61  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  213:25  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  221:38  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  240:5   warning  React Hook useEffect has a missing dependency: 'phases.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  326:38  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  340:29  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  356:32  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  373:30  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  447:90  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  456:31  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  461:24  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  484:27  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  489:22  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  550:21  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  566:21  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  590:17  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  650:42  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  719:62  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  724:65  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  727:78  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  732:77  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  738:64  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  738:86  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  744:73  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+
+B:\lumina\src\pages\Budget.tsx
+  113:11  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  317:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\src\pages\Cast.tsx
+  12:36  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+  21:9   error    'filtered' is never reassigned. Use 'const' instead                                                           prefer-const
+  27:19  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+  27:32  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+  65:37  warning  React Hook useEffect has a missing dependency: 'fetchCast'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+B:\lumina\src\pages\Crew.tsx
+  12:36  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+  21:9   error    'filtered' is never reassigned. Use 'const' instead                                                           prefer-const
+  27:19  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+  27:32  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+  69:37  warning  React Hook useEffect has a missing dependency: 'fetchCrew'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+B:\lumina\src\pages\Dashboard.tsx
+  182:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  807:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  934:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\src\pages\Login.tsx
+  29:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\src\pages\Movies.tsx
+  19:9   error  'filtered' is never reassigned. Use 'const' instead  prefer-const
+  26:19  error  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  26:32  error  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+
+B:\lumina\src\pages\Schedule.tsx
+  11:56  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\src\services\movieAPI.ts
+  215:15   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  225:38   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  227:72   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  238:51   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  240:72   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  253:25   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  253:39   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  266:102  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+B:\lumina\tailwind.config.ts
+  113:13  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 114 problems (97 errors, 17 warnings)
+  5 errors and 1 warning potentially fixable with the `--fix` option.
+

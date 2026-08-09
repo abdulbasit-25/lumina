@@ -1,0 +1,185 @@
+Directors 
+
+{
+  "Action": ["James Cameron", "Michael Bay", "Chad Stahelski"],
+  "Adventure": ["Steven Spielberg", "Peter Jackson", "Gore Verbinski"],
+  "Animation": ["Hayao Miyazaki", "John Lasseter", "Pete Docter"],
+  "Comedy": ["Edgar Wright", "Judd Apatow", "Todd Phillips"],
+  "Crime": ["Martin Scorsese", "Quentin Tarantino", "David Fincher"],
+  "Documentary": ["Ken Burns", "Werner Herzog", "Michael Moore"],
+  "Drama": ["Christopher Nolan", "Denis Villeneuve", "Greta Gerwig"],
+  "Family": ["Chris Columbus", "Robert Zemeckis", "Jon Favreau"],
+  "Fantasy": ["Peter Jackson", "Guillermo del Toro", "Tim Burton"],
+  "History": ["Ridley Scott", "Steven Spielberg", "Mel Gibson"],
+  "Horror": ["James Wan", "Ari Aster", "Jordan Peele"],
+  "Music": ["Damien Chazelle", "Baz Luhrmann", "Rob Marshall"],
+  "Mystery": ["Alfred Hitchcock", "David Fincher", "Denis Villeneuve"],
+  "Romance": ["Richard Linklater", "Nancy Meyers", "James Cameron"],
+  "Science Fiction": ["Christopher Nolan", "Ridley Scott", "Denis Villeneuve"],
+  "Thriller": ["David Fincher", "Alfred Hitchcock", "Christopher Nolan"],
+  "War": ["Steven Spielberg", "Sam Mendes", "Stanley Kubrick"],
+  "Western": ["Sergio Leone", "Clint Eastwood", "Quentin Tarantino"]
+}
+
+Actors 
+[
+  { "id": 1, "name": "Tom Cruise", "role": "Lead Actor", "projects": 50, "rating": 9.6, "popularity": 98, "available": true, "genre": "Action" },
+  { "id": 2, "name": "Dwayne Johnson", "role": "Lead Actor", "projects": 45, "rating": 9.2, "popularity": 97, "available": true, "genre": "Action" },
+  { "id": 3, "name": "Jason Statham", "role": "Lead Actor", "projects": 40, "rating": 9.0, "popularity": 94, "available": true, "genre": "Action" },
+  { "id": 4, "name": "Keanu Reeves", "role": "Lead Actor", "projects": 40, "rating": 9.4, "popularity": 96, "available": true, "genre": "Action" },
+  { "id": 5, "name": "Chris Hemsworth", "role": "Lead Actor", "projects": 35, "rating": 9.1, "popularity": 95, "available": true, "genre": "Action" },
+
+  { "id": 6, "name": "Harrison Ford", "role": "Lead Actor", "projects": 60, "rating": 9.5, "popularity": 95, "available": false, "genre": "Adventure" },
+  { "id": 7, "name": "Johnny Depp", "role": "Lead Actor", "projects": 55, "rating": 9.1, "popularity": 94, "available": true, "genre": "Adventure" },
+  { "id": 8, "name": "Orlando Bloom", "role": "Lead Actor", "projects": 30, "rating": 8.8, "popularity": 90, "available": true, "genre": "Adventure" },
+  { "id": 9, "name": "Chris Pratt", "role": "Lead Actor", "projects": 35, "rating": 8.9, "popularity": 92, "available": true, "genre": "Adventure" },
+  { "id": 10, "name": "Sam Worthington", "role": "Lead Actor", "projects": 25, "rating": 8.7, "popularity": 89, "available": true, "genre": "Adventure" },
+
+  { "id": 11, "name": "Tom Hanks", "role": "Voice Actor", "projects": 70, "rating": 9.8, "popularity": 99, "available": false, "genre": "Animation" },
+  { "id": 12, "name": "Robin Williams", "role": "Voice Actor", "projects": 65, "rating": 9.9, "popularity": 98, "available": false, "genre": "Animation" },
+  { "id": 13, "name": "Scarlett Johansson", "role": "Voice Actor", "projects": 50, "rating": 9.3, "popularity": 96, "available": true, "genre": "Animation" },
+  { "id": 14, "name": "Eddie Murphy", "role": "Voice Actor", "projects": 55, "rating": 9.2, "popularity": 95, "available": true, "genre": "Animation" },
+  { "id": 15, "name": "Jack Black", "role": "Voice Actor", "projects": 40, "rating": 9.0, "popularity": 93, "available": true, "genre": "Animation" },
+
+  { "id": 16, "name": "Jim Carrey", "role": "Comedic Actor", "projects": 45, "rating": 9.4, "popularity": 95, "available": true, "genre": "Comedy" },
+  { "id": 17, "name": "Adam Sandler", "role": "Comedic Actor", "projects": 60, "rating": 8.8, "popularity": 94, "available": true, "genre": "Comedy" },
+  { "id": 18, "name": "Will Ferrell", "role": "Comedic Actor", "projects": 50, "rating": 8.9, "popularity": 93, "available": true, "genre": "Comedy" },
+  { "id": 19, "name": "Kevin Hart", "role": "Comedic Actor", "projects": 35, "rating": 8.7, "popularity": 93, "available": true, "genre": "Comedy" },
+  { "id": 20, "name": "Steve Carell", "role": "Comedic Actor", "projects": 45, "rating": 9.1, "popularity": 92, "available": true, "genre": "Comedy" },
+
+  { "id": 21, "name": "Robert De Niro", "role": "Lead Actor", "projects": 80, "rating": 9.9, "popularity": 97, "available": false, "genre": "Crime" },
+  { "id": 22, "name": "Al Pacino", "role": "Lead Actor", "projects": 70, "rating": 9.8, "popularity": 96, "available": false, "genre": "Crime" },
+  { "id": 23, "name": "Leonardo DiCaprio", "role": "Lead Actor", "projects": 45, "rating": 9.9, "popularity": 99, "available": true, "genre": "Crime" },
+  { "id": 24, "name": "Matt Damon", "role": "Lead Actor", "projects": 50, "rating": 9.3, "popularity": 94, "available": true, "genre": "Crime" },
+  { "id": 25, "name": "Joaquin Phoenix", "role": "Lead Actor", "projects": 40, "rating": 9.7, "popularity": 95, "available": true, "genre": "Crime" },
+
+  { "id": 26, "name": "Morgan Freeman", "role": "Narrator", "projects": 90, "rating": 9.7, "popularity": 98, "available": true, "genre": "Documentary" },
+  { "id": 27, "name": "David Attenborough", "role": "Narrator", "projects": 100, "rating": 9.9, "popularity": 97, "available": false, "genre": "Documentary" },
+  { "id": 28, "name": "Emma Watson", "role": "Narrator", "projects": 30, "rating": 9.0, "popularity": 95, "available": true, "genre": "Documentary" },
+  { "id": 29, "name": "Matt Damon", "role": "Narrator", "projects": 35, "rating": 9.2, "popularity": 94, "available": true, "genre": "Documentary" },
+  { "id": 30, "name": "Leonardo DiCaprio", "role": "Narrator", "projects": 40, "rating": 9.5, "popularity": 96, "available": true, "genre": "Documentary" },
+
+  { "id": 31, "name": "Meryl Streep", "role": "Lead Actress", "projects": 75, "rating": 9.9, "popularity": 98, "available": false, "genre": "Drama" },
+  { "id": 32, "name": "Daniel Day-Lewis", "role": "Lead Actor", "projects": 30, "rating": 9.9, "popularity": 97, "available": false, "genre": "Drama" },
+  { "id": 33, "name": "Cate Blanchett", "role": "Lead Actress", "projects": 55, "rating": 9.7, "popularity": 96, "available": true, "genre": "Drama" },
+  { "id": 34, "name": "Christian Bale", "role": "Lead Actor", "projects": 50, "rating": 9.7, "popularity": 96, "available": true, "genre": "Drama" },
+  { "id": 35, "name": "Natalie Portman", "role": "Lead Actress", "projects": 45, "rating": 9.5, "popularity": 94, "available": true, "genre": "Drama" },
+
+  { "id": 36, "name": "Julie Andrews", "role": "Lead Actress", "projects": 35, "rating": 9.3, "popularity": 95, "available": false, "genre": "Family" },
+  { "id": 37, "name": "Emma Watson", "role": "Lead Actress", "projects": 30, "rating": 9.0, "popularity": 95, "available": true, "genre": "Family" },
+  { "id": 38, "name": "Tom Holland", "role": "Lead Actor", "projects": 25, "rating": 8.9, "popularity": 94, "available": true, "genre": "Family" },
+  { "id": 39, "name": "Zendaya", "role": "Lead Actress", "projects": 20, "rating": 8.8, "popularity": 93, "available": true, "genre": "Family" },
+  { "id": 40, "name": "Dwayne Johnson", "role": "Lead Actor", "projects": 45, "rating": 9.2, "popularity": 97, "available": true, "genre": "Family" }
+][
+  { "id": 1, "name": "Tom Cruise", "role": "Lead Actor", "projects": 50, "rating": 9.6, "popularity": 98, "available": true, "genre": "Action" },
+  { "id": 2, "name": "Dwayne Johnson", "role": "Lead Actor", "projects": 45, "rating": 9.2, "popularity": 97, "available": true, "genre": "Action" },
+  { "id": 3, "name": "Jason Statham", "role": "Lead Actor", "projects": 40, "rating": 9.0, "popularity": 94, "available": true, "genre": "Action" },
+  { "id": 4, "name": "Keanu Reeves", "role": "Lead Actor", "projects": 40, "rating": 9.4, "popularity": 96, "available": true, "genre": "Action" },
+  { "id": 5, "name": "Chris Hemsworth", "role": "Lead Actor", "projects": 35, "rating": 9.1, "popularity": 95, "available": true, "genre": "Action" },
+  { "id": 6, "name": "Scarlett Johansson", "role": "Lead Actress", "projects": 45, "rating": 9.3, "popularity": 96, "available": true, "genre": "Action" },
+  { "id": 7, "name": "Hugh Jackman", "role": "Lead Actor", "projects": 40, "rating": 9.0, "popularity": 94, "available": true, "genre": "Action" },
+  { "id": 8, "name": "Gal Gadot", "role": "Lead Actress", "projects": 35, "rating": 9.1, "popularity": 93, "available": true, "genre": "Action" },
+  { "id": 9, "name": "Vin Diesel", "role": "Lead Actor", "projects": 38, "rating": 8.9, "popularity": 92, "available": true, "genre": "Action" },
+  { "id": 10, "name": "Michelle Rodriguez", "role": "Lead Actress", "projects": 32, "rating": 8.8, "popularity": 91, "available": true, "genre": "Action" },
+
+  { "id": 11, "name": "Harrison Ford", "role": "Lead Actor", "projects": 60, "rating": 9.5, "popularity": 95, "available": false, "genre": "Adventure" },
+  { "id": 12, "name": "Johnny Depp", "role": "Lead Actor", "projects": 55, "rating": 9.1, "popularity": 94, "available": true, "genre": "Adventure" },
+  { "id": 13, "name": "Orlando Bloom", "role": "Lead Actor", "projects": 30, "rating": 8.8, "popularity": 90, "available": true, "genre": "Adventure" },
+  { "id": 14, "name": "Chris Pratt", "role": "Lead Actor", "projects": 35, "rating": 8.9, "popularity": 92, "available": true, "genre": "Adventure" },
+  { "id": 15, "name": "Sam Worthington", "role": "Lead Actor", "projects": 25, "rating": 8.7, "popularity": 89, "available": true, "genre": "Adventure" },
+  { "id": 16, "name": "Ian McKellen", "role": "Lead Actor", "projects": 45, "rating": 9.2, "popularity": 94, "available": true, "genre": "Adventure" },
+  { "id": 17, "name": "Elijah Wood", "role": "Lead Actor", "projects": 35, "rating": 8.9, "popularity": 92, "available": true, "genre": "Adventure" },
+  { "id": 18, "name": "Emma Watson", "role": "Lead Actress", "projects": 30, "rating": 9.0, "popularity": 95, "available": true, "genre": "Adventure" },
+  { "id": 19, "name": "Daniel Radcliffe", "role": "Lead Actor", "projects": 30, "rating": 8.8, "popularity": 93, "available": true, "genre": "Adventure" },
+  { "id": 20, "name": "Zendaya", "role": "Lead Actress", "projects": 20, "rating": 8.8, "popularity": 93, "available": true, "genre": "Adventure" },
+
+  { "id": 21, "name": "Tom Hanks", "role": "Voice Actor", "projects": 70, "rating": 9.8, "popularity": 99, "available": false, "genre": "Animation" },
+  { "id": 22, "name": "Robin Williams", "role": "Voice Actor", "projects": 65, "rating": 9.9, "popularity": 98, "available": false, "genre": "Animation" },
+  { "id": 23, "name": "Scarlett Johansson", "role": "Voice Actor", "projects": 50, "rating": 9.3, "popularity": 96, "available": true, "genre": "Animation" },
+  { "id": 24, "name": "Eddie Murphy", "role": "Voice Actor", "projects": 55, "rating": 9.2, "popularity": 95, "available": true, "genre": "Animation" },
+  { "id": 25, "name": "Jack Black", "role": "Voice Actor", "projects": 40, "rating": 9.0, "popularity": 93, "available": true, "genre": "Animation" },
+  { "id": 26, "name": "Jim Carrey", "role": "Voice Actor", "projects": 45, "rating": 9.4, "popularity": 95, "available": true, "genre": "Animation" },
+  { "id": 27, "name": "Will Ferrell", "role": "Voice Actor", "projects": 50, "rating": 8.9, "popularity": 93, "available": true, "genre": "Animation" },
+  { "id": 28, "name": "Adam Sandler", "role": "Voice Actor", "projects": 60, "rating": 8.8, "popularity": 94, "available": true, "genre": "Animation" },
+  { "id": 29, "name": "Steve Carell", "role": "Voice Actor", "projects": 45, "rating": 9.1, "popularity": 92, "available": true, "genre": "Animation" },
+  { "id": 30, "name": "Kevin Hart", "role": "Voice Actor", "projects": 35, "rating": 8.7, "popularity": 93, "available": true, "genre": "Animation" },
+
+  { "id": 31, "name": "Jim Carrey", "role": "Comedic Actor", "projects": 45, "rating": 9.4, "popularity": 95, "available": true, "genre": "Comedy" },
+  { "id": 32, "name": "Adam Sandler", "role": "Comedic Actor", "projects": 60, "rating": 8.8, "popularity": 94, "available": true, "genre": "Comedy" },
+  { "id": 33, "name": "Will Ferrell", "role": "Comedic Actor", "projects": 50, "rating": 8.9, "popularity": 93, "available": true, "genre": "Comedy" },
+  { "id": 34, "name": "Kevin Hart", "role": "Comedic Actor", "projects": 35, "rating": 8.7, "popularity": 93, "available": true, "genre": "Comedy" },
+  { "id": 35, "name": "Steve Carell", "role": "Comedic Actor", "projects": 45, "rating": 9.1, "popularity": 92, "available": true, "genre": "Comedy" },
+  { "id": 36, "name": "Melissa McCarthy", "role": "Comedic Actress", "projects": 35, "rating": 8.8, "popularity": 90, "available": true, "genre": "Comedy" },
+  { "id": 37, "name": "Rebel Wilson", "role": "Comedic Actress", "projects": 30, "rating": 8.7, "popularity": 89, "available": true, "genre": "Comedy" },
+  { "id": 38, "name": "Tina Fey", "role": "Comedic Actress", "projects": 25, "rating": 9.0, "popularity": 88, "available": true, "genre": "Comedy" },
+  { "id": 39, "name": "Bill Murray", "role": "Comedic Actor", "projects": 50, "rating": 9.2, "popularity": 91, "available": true, "genre": "Comedy" },
+  { "id": 40, "name": "Ben Stiller", "role": "Comedic Actor", "projects": 45, "rating": 9.0, "popularity": 90, "available": true, "genre": "Comedy" }
+
+  // Similarly, continue for Crime, Documentary, Drama, Family, Fantasy, History, Horror, Music, Mystery, Romance, Science Fiction, Thriller, War, Western
+]
+
+Genra
+{
+  "Action": ["Tom Cruise", "Dwayne Johnson", "Jason Statham", "Keanu Reeves", "Chris Hemsworth"],
+  "Adventure": ["Harrison Ford", "Johnny Depp", "Orlando Bloom", "Chris Pratt", "Sam Worthington"],
+  "Animation": ["Tom Hanks", "Robin Williams", "Scarlett Johansson", "Eddie Murphy", "Jack Black"],
+  "Comedy": ["Jim Carrey", "Adam Sandler", "Will Ferrell", "Kevin Hart", "Steve Carell"],
+  "Crime": ["Robert De Niro", "Al Pacino", "Leonardo DiCaprio", "Matt Damon", "Joaquin Phoenix"],
+  "Documentary": ["Morgan Freeman", "David Attenborough", "Leonardo DiCaprio", "Emma Watson", "Matt Damon"],
+  "Drama": ["Meryl Streep", "Daniel Day-Lewis", "Cate Blanchett", "Christian Bale", "Natalie Portman"],
+  "Family": ["Julie Andrews", "Emma Watson", "Tom Holland", "Zendaya", "Dwayne Johnson"],
+  "Fantasy": ["Elijah Wood", "Ian McKellen", "Daniel Radcliffe", "Emma Watson", "Johnny Depp"],
+  "History": ["Ben Kingsley", "Liam Neeson", "Ralph Fiennes", "Tom Hanks", "Cate Blanchett"],
+  "Horror": ["Jamie Lee Curtis", "Vera Farmiga", "Toni Collette", "Anya Taylor-Joy", "Patrick Wilson"],
+  "Music": ["Lady Gaga", "Jared Leto", "Will Smith", "Jennifer Lopez", "Rami Malek"],
+  "Mystery": ["Benedict Cumberbatch", "Daniel Craig", "Jake Gyllenhaal", "Rosamund Pike", "Edward Norton"],
+  "Romance": ["Ryan Gosling", "Julia Roberts", "Hugh Grant", "Rachel McAdams", "Leonardo DiCaprio"],
+  "Science Fiction": ["Sigourney Weaver", "Mark Hamill", "Carrie Fisher", "Harrison Ford", "Keanu Reeves"],
+  "Thriller": ["Brad Pitt", "Angelina Jolie", "Denzel Washington", "Jodie Foster", "Anthony Hopkins"],
+  "War": ["Tom Hanks", "Brad Pitt", "Cillian Murphy", "Russell Crowe", "Matt Damon"],
+  "Western": ["Clint Eastwood", "John Wayne", "Kurt Russell", "Jeff Bridges", "Kevin Costner"]
+}
+
+
+crew memebers 
+[
+  { "id": 1, "name": "Roger Deakins", "role": "Cinematographer", "projects": 80, "rating": 9.8, "experience": "35 years" },
+  { "id": 2, "name": "Emmanuel Lubezki", "role": "Cinematographer", "projects": 60, "rating": 9.7, "experience": "30 years" },
+  { "id": 3, "name": "Hoyte van Hoytema", "role": "Cinematographer", "projects": 40, "rating": 9.4, "experience": "20 years" },
+
+  { "id": 4, "name": "Thelma Schoonmaker", "role": "Editor", "projects": 70, "rating": 9.9, "experience": "40 years" },
+  { "id": 5, "name": "Lee Smith", "role": "Editor", "projects": 50, "rating": 9.3, "experience": "25 years" },
+  { "id": 6, "name": "Margaret Sixel", "role": "Editor", "projects": 30, "rating": 9.1, "experience": "20 years" },
+
+  { "id": 7, "name": "Hans Zimmer", "role": "Composer", "projects": 150, "rating": 9.8, "experience": "40 years" },
+  { "id": 8, "name": "John Williams", "role": "Composer", "projects": 120, "rating": 9.9, "experience": "60 years" },
+  { "id": 9, "name": "A. R. Rahman", "role": "Composer", "projects": 100, "rating": 9.5, "experience": "30 years" },
+
+  { "id": 10, "name": "Rick Carter", "role": "Production Designer", "projects": 40, "rating": 9.2, "experience": "30 years" },
+  { "id": 11, "name": "Dennis Gassner", "role": "Production Designer", "projects": 50, "rating": 9.3, "experience": "35 years" },
+  { "id": 12, "name": "Sarah Greenwood", "role": "Production Designer", "projects": 35, "rating": 9.1, "experience": "25 years" },
+
+  { "id": 13, "name": "Sandy Powell", "role": "Costume Designer", "projects": 60, "rating": 9.4, "experience": "35 years" },
+  { "id": 14, "name": "Colleen Atwood", "role": "Costume Designer", "projects": 70, "rating": 9.5, "experience": "30 years" },
+  { "id": 15, "name": "Ruth E. Carter", "role": "Costume Designer", "projects": 40, "rating": 9.2, "experience": "25 years" },
+
+  { "id": 16, "name": "Dennis Muren", "role": "VFX Supervisor", "projects": 90, "rating": 9.7, "experience": "45 years" },
+  { "id": 17, "name": "Joe Letteri", "role": "VFX Supervisor", "projects": 60, "rating": 9.5, "experience": "30 years" },
+  { "id": 18, "name": "Paul Franklin", "role": "VFX Supervisor", "projects": 45, "rating": 9.3, "experience": "25 years" },
+
+  { "id": 19, "name": "Ben Burtt", "role": "Sound Designer", "projects": 70, "rating": 9.8, "experience": "40 years" },
+  { "id": 20, "name": "Gary Rydstrom", "role": "Sound Designer", "projects": 65, "rating": 9.6, "experience": "35 years" },
+  { "id": 21, "name": "Richard King", "role": "Sound Designer", "projects": 50, "rating": 9.4, "experience": "30 years" },
+
+  { "id": 22, "name": "Nina Gold", "role": "Casting Director", "projects": 80, "rating": 9.5, "experience": "30 years" },
+  { "id": 23, "name": "Sarah Finn", "role": "Casting Director", "projects": 90, "rating": 9.6, "experience": "25 years" },
+  { "id": 24, "name": "Francine Maisler", "role": "Casting Director", "projects": 70, "rating": 9.4, "experience": "35 years" },
+
+  { "id": 25, "name": "Kevin Feige", "role": "Producer", "projects": 50, "rating": 9.7, "experience": "25 years" },
+  { "id": 26, "name": "Kathleen Kennedy", "role": "Producer", "projects": 100, "rating": 9.5, "experience": "40 years" },
+  { "id": 27, "name": "Jerry Bruckheimer", "role": "Producer", "projects": 80, "rating": 9.4, "experience": "45 years" },
+
+  { "id": 28, "name": "Aaron Sorkin", "role": "Screenwriter", "projects": 40, "rating": 9.6, "experience": "30 years" },
+  { "id": 29, "name": "Quentin Tarantino", "role": "Screenwriter", "projects": 20, "rating": 9.8, "experience": "30 years" },
+  { "id": 30, "name": "Charlie Kaufman", "role": "Screenwriter", "projects": 25, "rating": 9.5, "experience": "25 years" }
+]

@@ -1,0 +1,20 @@
+{
+  "Action": ["Tom Cruise", "Dwayne Johnson", "Jason Statham", "Keanu Reeves", "Chris Hemsworth"],
+  "Adventure": ["Harrison Ford", "Johnny Depp", "Orlando Bloom", "Chris Pratt", "Sam Worthington"],
+  "Animation": ["Tom Hanks", "Robin Williams", "Scarlett Johansson", "Eddie Murphy", "Jack Black"],
+  "Comedy": ["Jim Carrey", "Adam Sandler", "Will Ferrell", "Kevin Hart", "Steve Carell"],
+  "Crime": ["Robert De Niro", "Al Pacino", "Leonardo DiCaprio", "Matt Damon", "Joaquin Phoenix"],
+  "Documentary": ["Morgan Freeman", "David Attenborough", "Leonardo DiCaprio", "Emma Watson", "Matt Damon"],
+  "Drama": ["Meryl Streep", "Daniel Day-Lewis", "Cate Blanchett", "Christian Bale", "Natalie Portman"],
+  "Family": ["Julie Andrews", "Emma Watson", "Tom Holland", "Zendaya", "Dwayne Johnson"],
+  "Fantasy": ["Elijah Wood", "Ian McKellen", "Daniel Radcliffe", "Emma Watson", "Johnny Depp"],
+  "History": ["Ben Kingsley", "Liam Neeson", "Ralph Fiennes", "Tom Hanks", "Cate Blanchett"],
+  "Horror": ["Jamie Lee Curtis", "Vera Farmiga", "Toni Collette", "Anya Taylor-Joy", "Patrick Wilson"],
+  "Music": ["Lady Gaga", "Jared Leto", "Will Smith", "Jennifer Lopez", "Rami Malek"],
+  "Mystery": ["Benedict Cumberbatch", "Daniel Craig", "Jake Gyllenhaal", "Rosamund Pike", "Edward Norton"],
+  "Romance": ["Ryan Gosling", "Julia Roberts", "Hugh Grant", "Rachel McAdams", "Leonardo DiCaprio"],
+  "Science Fiction": ["Sigourney Weaver", "Mark Hamill", "Carrie Fisher", "Harrison Ford", "Keanu Reeves"],
+  "Thriller": ["Brad Pitt", "Angelina Jolie", "Denzel Washington", "Jodie Foster", "Anthony Hopkins"],
+  "War": ["Tom Hanks", "Brad Pitt", "Cillian Murphy", "Russell Crowe", "Matt Damon"],
+  "Western": ["Clint Eastwood", "John Wayne", "Kurt Russell", "Jeff Bridges", "Kevin Costner"]
+}

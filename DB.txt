@@ -1,0 +1,15 @@
+7QVORGy6XLXIFhUb
+
+Username
+abdulbasitgr7_db_user
+Password
+7QVORGy6XLXIFhUb
+
+
+mongodb+srv://abdulbasitgr7_db_user:7QVORGy6XLXIFhUb@lumina.fjd0vku.mongodb.net/?appName=Lumina
+
+
+CLOUDINARY_URL=cloudinary://<your_api_key>:<your_api_secret>@dmorye4c0
+
+your_api_key = 321544585999788
+your_api_secret = 8qgY-reDD-fRbW2LUwiV5afaysU

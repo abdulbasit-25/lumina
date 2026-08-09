@@ -1,0 +1,20 @@
+{
+  "Action": ["James Cameron", "Michael Bay", "Chad Stahelski"],
+  "Adventure": ["Steven Spielberg", "Peter Jackson", "Gore Verbinski"],
+  "Animation": ["Hayao Miyazaki", "John Lasseter", "Pete Docter"],
+  "Comedy": ["Edgar Wright", "Judd Apatow", "Todd Phillips"],
+  "Crime": ["Martin Scorsese", "Quentin Tarantino", "David Fincher"],
+  "Documentary": ["Ken Burns", "Werner Herzog", "Michael Moore"],
+  "Drama": ["Christopher Nolan", "Denis Villeneuve", "Greta Gerwig"],
+  "Family": ["Chris Columbus", "Robert Zemeckis", "Jon Favreau"],
+  "Fantasy": ["Peter Jackson", "Guillermo del Toro", "Tim Burton"],
+  "History": ["Ridley Scott", "Steven Spielberg", "Mel Gibson"],
+  "Horror": ["James Wan", "Ari Aster", "Jordan Peele"],
+  "Music": ["Damien Chazelle", "Baz Luhrmann", "Rob Marshall"],
+  "Mystery": ["Alfred Hitchcock", "David Fincher", "Denis Villeneuve"],
+  "Romance": ["Richard Linklater", "Nancy Meyers", "James Cameron"],
+  "Science Fiction": ["Christopher Nolan", "Ridley Scott", "Denis Villeneuve"],
+  "Thriller": ["David Fincher", "Alfred Hitchcock", "Christopher Nolan"],
+  "War": ["Steven Spielberg", "Sam Mendes", "Stanley Kubrick"],
+  "Western": ["Sergio Leone", "Clint Eastwood", "Quentin Tarantino"]
+}

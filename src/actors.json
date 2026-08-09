@@ -1,0 +1,14 @@
+[
+  { "name": "Robert Downey Jr.", "genres": ["Action", "Sci-Fi", "Drama"] },
+  { "name": "Scarlett Johansson", "genres": ["Action", "Drama", "Sci-Fi"] },
+  { "name": "Morgan Freeman", "genres": ["Drama", "Crime", "Documentary"] },
+  { "name": "Viola Davis", "genres": ["Drama", "Crime"] },
+  { "name": "Mahershala Ali", "genres": ["Drama", "Thriller"] },
+  { "name": "Florence Pugh", "genres": ["Drama", "Horror", "Action"] },
+  { "name": "Pedro Pascal", "genres": ["Action", "Adventure", "Sci-Fi"] },
+  { "name": "Ana de Armas", "genres": ["Action", "Thriller", "Sci-Fi"] },
+  { "name": "Timothée Chalamet", "genres": ["Drama", "Sci-Fi", "Romance"] },
+  { "name": "Zendaya", "genres": ["Drama", "Sci-Fi", "Action"] },
+  { "name": "Cillian Murphy", "genres": ["Drama", "Thriller", "War"] },
+  { "name": "Anya Taylor-Joy", "genres": ["Horror", "Thriller", "Drama"] }
+] 
