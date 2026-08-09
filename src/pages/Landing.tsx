@@ -6,7 +6,6 @@ import {
   Users,
   Calendar,
   DollarSign,
-  Crosshair,
   Brain,
   ArrowRight,
   Play,
@@ -15,8 +14,7 @@ import {
   Shield,
   TrendingUp,
   Star,
-  Target,
-  Code,
+  Crosshair,
 } from "lucide-react";
 import demoVideo from "@/assets/Demo-vid.mp4";
 import bannerImg from "@/assets/banner.png";
@@ -74,6 +72,13 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+}
+
+/* ── ACCESSIBILITY: focus states ── */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
 /* ── PAGE AMBIENT ── */
@@ -153,6 +158,15 @@ h1, h2, h3, h4, h5 { font-family: var(--ff-head); }
   background: linear-gradient(90deg, transparent, rgba(99,102,241,0.1), transparent);
   background-size: 800px 100%;
   animation: shimmer 3s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* ─────────────────────────────────────────────────────────────────
@@ -565,6 +579,64 @@ h1, h2, h3, h4, h5 { font-family: var(--ff-head); }
 .stat-card:hover .stat-bar { transform:scaleX(1); }
 
 /* ─────────────────────────────────────────────────────────────────
+   SIGNATURE STRIP — maker credit, deliberately quiet
+───────────────────────────────────────────────────────────────── */
+.signature-strip {
+  position:relative;
+  border-bottom:1px solid var(--bdr);
+  background:linear-gradient(180deg, rgba(15,15,26,0.35), rgba(15,15,26,0.6));
+  overflow:hidden;
+}
+.signature-strip::before {
+  content:'';
+  position:absolute; inset:0;
+  background:radial-gradient(ellipse 55% 140% at 50% 50%, rgba(99,102,241,0.05) 0%, transparent 70%);
+  pointer-events:none;
+}
+.signature-inner {
+  max-width:1200px; margin:0 auto;
+  padding:2.5rem 1.5rem;
+  display:flex; align-items:center; justify-content:center;
+  gap:1.1rem; flex-wrap:wrap; text-align:center;
+  position:relative; z-index:1;
+}
+.signature-eyebrow {
+  display:flex; align-items:center; gap:.5rem;
+  font-family:var(--ff-mono);
+  font-size:.66rem; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--muted);
+}
+.signature-eyebrow svg { color:var(--blue); flex-shrink:0; }
+.signature-dot {
+  width:3px; height:3px; border-radius:50%;
+  background:var(--muted2);
+}
+.signature-brand {
+  display:inline-flex; align-items:center; gap:.4rem;
+  text-decoration:none;
+  font-family:var(--ff-head);
+  font-size:.92rem; font-weight:700; letter-spacing:.04em;
+  color:var(--txt);
+  transition:color .25s;
+}
+.signature-brand .mark {
+  background:linear-gradient(90deg,var(--blue),var(--purple));
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.signature-brand svg {
+  color:var(--muted2);
+  transition:transform .25s, color .25s;
+}
+.signature-brand:hover { color:#fff; }
+.signature-brand:hover svg { transform:translate(2px,-2px); color:var(--blue); }
+.signature-role {
+  font-family:var(--ff-body);
+  font-size:.78rem; font-weight:300;
+  color:var(--muted2);
+}
+
+/* ─────────────────────────────────────────────────────────────────
    SECTION WRAPPER
 ───────────────────────────────────────────────────────────────── */
 .section {
@@ -862,19 +934,6 @@ h1, h2, h3, h4, h5 { font-family: var(--ff-head); }
 }
 .footer-links button:hover, .footer-links a:hover { color:var(--txt); }
 
-.footer-arch-link {
-  display:inline-flex; align-items:center; gap:.4rem;
-  font-size:.82rem; color:var(--muted); font-weight:300;
-  text-decoration:none; transition:color .22s;
-}
-.footer-arch-link span {
-  font-family:var(--ff-head); font-weight:700;
-  font-size:.9rem; letter-spacing:.04em;
-  background:linear-gradient(90deg,var(--blue2),var(--purple));
-  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
-}
-.footer-arch-link:hover { color:var(--txt); }
-
 .footer-bottom {
   border-top:1px solid var(--bdr);
   padding-top:1.5rem;
@@ -885,13 +944,24 @@ h1, h2, h3, h4, h5 { font-family: var(--ff-head); }
   font-family:var(--ff-mono); font-size:.68rem;
   letter-spacing:.08em; color:var(--muted2);
 }
-.footer-legal { display:flex; gap:1.5rem; }
+.footer-legal { display:flex; align-items:center; gap:1.5rem; }
 .footer-legal button {
   font-family:var(--ff-mono); font-size:.68rem; letter-spacing:.06em;
   color:var(--muted2); background:none; border:none; cursor:pointer;
   transition:color .22s;
 }
 .footer-legal button:hover { color:var(--txt); }
+.footer-credit {
+  font-family:var(--ff-mono); font-size:.68rem; letter-spacing:.06em;
+  color:var(--muted2); text-decoration:none;
+  transition:color .22s;
+}
+.footer-credit span {
+  background:linear-gradient(90deg,var(--blue),var(--purple));
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  font-weight:600;
+}
+.footer-credit:hover { color:var(--txt); }
 
 /* ─────────────────────────────────────────────────────────────────
    RESPONSIVE
@@ -910,6 +980,8 @@ h1, h2, h3, h4, h5 { font-family: var(--ff-head); }
   .stat-card:nth-child(2) { border-right:none; }
   .ai-inner { padding:2rem 1.5rem; }
   .footer-grid { grid-template-columns:1fr; gap:2rem; }
+  .signature-inner { padding:2rem 1.25rem; gap:.75rem; }
+  .signature-role { width:100%; }
 }
 @media (max-width:560px) {
   .feat-grid { grid-template-columns:1fr; }
@@ -957,13 +1029,6 @@ const features = [
     blue: false,
   },
 ];
-
-// const stats = [
-//   { num: "2,400+", lbl: "Productions Managed", color: "var(--blue)" },
-//   { num: "$8.2B",  lbl: "Budgets Tracked",     color: "var(--purple)" },
-//   { num: "97%",    lbl: "On-Time Delivery",    color: "var(--cyan)" },
-//   { num: "140+",   lbl: "Countries Active",    color: "var(--blue)" },
-// ];
 
 const dashRows = [
   { lbl: "Pre-Prod", pct: "82%", w: "82%", cls: "fill-1", delay: ".1s" },
@@ -1163,17 +1228,32 @@ export default function Landing() {
         </div>
       </div>
 
-      {/* ── STATS BAR ── */}
-      {/* <div className="stats-bar" ref={r as any}>
-        {stats.map(s => (
-          <div key={s.lbl} className="stat-card">
-            <div className="anim-shimmer stat-shimmer" />
-            <span className="stat-num" style={{ color: s.color }}>{s.num}</span>
-            <span className="stat-lbl">{s.lbl}</span>
-            <div className="stat-bar" />
+      {/* ── SIGNATURE STRIP ──
+          A quiet maker credit, not a competing feature section.
+          Keeps the product narrative front and center while still
+          crediting the build. */}
+      <div className="signature-strip reveal" ref={r}>
+        <div className="signature-inner">
+          <div className="signature-eyebrow">
+            <Crosshair size={12} />
+            Precision-built
           </div>
-        ))}
-      </div> */}
+          <span className="signature-dot" aria-hidden="true" />
+          <a
+            href="https://abdulbasit-archer.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="signature-brand"
+          >
+            <span className="mark">ARCHER</span> Studio
+            <ArrowRight size={13} style={{ transform: "rotate(-45deg)" }} />
+          </a>
+          <span className="signature-dot" aria-hidden="true" />
+          <span className="signature-role">
+            Abdul Basit — Frontend Engineer &amp; AI Developer
+          </span>
+        </div>
+      </div>
 
       {/* ── FEATURES ── */}
       <div className="section">
@@ -1317,8 +1397,8 @@ export default function Landing() {
       <div className="cta-section">
         <div className="reveal" ref={r}>
           <h2 className="cta-h2">
-            Direct
-            <span className="grad-text">your vision?</span>
+            Ready to
+            <span className="grad-text"> direct your vision?</span>
           </h2>
           <p className="cta-p">
             Join the studios redefining modern film production. Start free —
@@ -1374,23 +1454,6 @@ export default function Landing() {
                 <button onClick={() => navigate("/enterprise")}>
                   Enterprise
                 </button>
-                <span
-                  style={{
-                    fontSize: ".78rem",
-                    color: "var(--muted2)",
-                    fontWeight: 300,
-                  }}
-                >
-                  Powered by{" "}
-                  <a
-                    href="https://abdulbasit-archer.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="footer-arch-link"
-                  >
-                    <span>Archer</span>
-                  </a>
-                </span>
               </div>
             </div>
 
@@ -1417,6 +1480,14 @@ export default function Landing() {
             <div className="footer-legal">
               <button>Privacy Policy</button>
               <button>Terms of Service</button>
+              <a
+                href="https://abdulbasit-archer.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-credit"
+              >
+                Design &amp; build by <span>Archer</span>
+              </a>
             </div>
           </div>
         </div>

@@ -1,5 +1,21 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Build output
+dist/
+dist-ssr/
+build/
+.vite/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,15 +23,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Local files
 *.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Large media files
+*.mp4
+*.mov
+*.mkv
+*.avi
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
@@ -23,10 +48,12 @@ dist-ssr
 *.sln
 *.sw?
 
-.vercel
+# Vercel
+.vercel/
 
-# Large video files
-*.mp4
-*.mov
-*.mkv
-*.avi
+# Coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
