@@ -3,12 +3,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "installCommand": "npm install && pip install -r requirements.txt",
-  "env": {
-    "MONGO_URI": "@mongo_uri",
-    "JWT_SECRET": "@jwt_secret",
-    "CLOUDINARY_API_KEY": "@cloudinary_api_key",
-    "CLOUDINARY_API_SECRET": "@cloudinary_api_secret"
-  },
+
   "functions": {
     "api/**/*.ts": {
       "runtime": "nodejs20.x"
@@ -17,6 +12,7 @@
       "runtime": "python3.9"
     }
   },
+
   "rewrites": [
     {
       "source": "/api/(.*)",
