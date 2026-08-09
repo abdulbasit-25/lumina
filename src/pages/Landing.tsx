@@ -1250,7 +1250,7 @@ export default function Landing() {
           </a>
           <span className="signature-dot" aria-hidden="true" />
           <span className="signature-role">
-            Abdul Basit — Frontend Engineer &amp; AI Developer
+            ABDUL BASIT — Frontend Engineer &amp; AI Developer
           </span>
         </div>
       </div>
